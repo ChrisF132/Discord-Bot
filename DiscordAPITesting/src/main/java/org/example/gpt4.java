@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class gpt4 {
     static String azureOpenAiKey = System.getenv("KEYGPT");
-    static String endpoint = "https://ai-falconch0392ai606443841045.openai.azure.com";
+    static String endpoint = "ENDPOINT";
     static String deploymentOrModelId = "gpt-4";
 
     public String generateResponse(String prompt) {
