@@ -1,6 +1,4 @@
-//KEY: DaAl5EX705X1VFrBISLDreWLrljpMbzg0hOv7KNV457WjFNkQEnBJQQJ99ALACHYHv6XJ3w3AAAAACOGERaJ
-//ENDPOINT: https://ai-falconch0392ai606443841045.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview
-package org.example;
+
 import com.azure.ai.openai.OpenAIClient;
 import com.azure.ai.openai.OpenAIClientBuilder;
 import com.azure.ai.openai.models.*;
