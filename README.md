@@ -3,6 +3,7 @@ This discord bot is built using the Java Discord API (JDA) and provides AI respo
 Main Commands
 
 !prompt (query) Get a response to any question or prompt.	!prompt What's the weather today?
+
 !dalle (query)	Generate an AI image based on a detailed prompt.	!dalle A futuristic cityscape at sunset
 
 Set-Up:
