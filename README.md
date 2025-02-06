@@ -33,9 +33,9 @@ mvn clean install
 java -jar target/discord-ai-bot.jar  
 
 5. Invite the Bot to Your Server:
-  Go to the Discord Developer Portal.
-  Generate an OAuth2 invite link for your bot.
-  Add it to your server of choosing.
+  Go to the Discord Developer Portal,
+  generate an OAuth2 invite link for your bot and
+  add it to your server of choosing.
 
 Requirements
 
