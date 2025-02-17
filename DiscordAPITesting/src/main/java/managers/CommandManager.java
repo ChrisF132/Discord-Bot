@@ -19,9 +19,10 @@ public class CommandManager {
         commands.put("!rolldice", new diceCommand());
         commands.put("!help", new helpCommand());
         commands.put("!laboriousfruit", new fruitCommand());
+        commands.put("!getselfavatar", new selfAvatarCommand());
         multiLineCommands.put("!prompt", new gptPromptCommand(bot));
         multiLineCommands.put("!dalle", new gptDalleCommand(drawBot));
-        multiLineCommands.put("!kick", new kickCommand());
+        multiLineCommands.put("!getuseravatar", new getAvatarCommand());
     }
 
     public void handleCommand(String command, MessageReceivedEvent event) {
