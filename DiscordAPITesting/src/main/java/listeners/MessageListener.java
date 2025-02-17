@@ -15,8 +15,7 @@ public class MessageListener extends ListenerAdapter {
 
 
     /**
-     * TODO: Fix bug where response is still outputted if text is present after a one-line command
-     *
+     * 
      * Outlines the protocol for how to handle a message. When a message it sent, the message first goes through
      * a check to see if the message was sent by a bot. If so, the message is rendered inert. Otherwise, the message is
      * logged in the console for debugging, and the message is split into two pieces if the prompt is more than two
